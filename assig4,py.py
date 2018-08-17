@@ -21,13 +21,7 @@ list6=list4+list5
 list6.sort()
 print(list6)
 #ques6
-stack=['adi','abhi','akash']
-stack.pop()
-print(stack)
-queue=['adi','abhi','akash']
-queue.remove('adi')
-print(queue)
-#ques optional
+
 list7=[2,3,4,5,6,7,8,9]
 even=0;
 odd=0;
