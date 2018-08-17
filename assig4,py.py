@@ -1,3 +1,4 @@
+#list
 #ques1
 list0=[1,2,3]
 print(list0)
@@ -21,7 +22,6 @@ list6=list4+list5
 list6.sort()
 print(list6)
 #ques6
-
 list7=[2,3,4,5,6,7,8,9]
 even=0;
 odd=0;
@@ -32,3 +32,15 @@ for i in list7:
         odd=odd+1;
 print("no. of even",even)
 print("no. of odd",odd)
+#strings
+#ques1
+str1='i am aditya'
+a=str1.upper()
+print(a)
+#ques2
+txt='1234'
+print(txt.isnumeric())
+#ques3
+text='hello world'
+a=text.replace('hello world','hello')
+print(a)
