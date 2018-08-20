@@ -32,6 +32,15 @@ for i in list7:
         odd=odd+1;
 print("no. of even",even)
 print("no. of odd",odd)
+#tuple
+#ques1
+t=tuple("1,2,3,4")
+rev=reversed(t)
+print(tuple(rev))
+#ques2
+num=(1,2,3,4,5)
+print("max is",max(num))
+print("min is",min(num))
 #strings
 #ques1
 str1='i am aditya'
@@ -42,5 +51,5 @@ txt='1234'
 print(txt.isnumeric())
 #ques3
 text='hello world'
-a=text.replace('hello world','hello')
+a=text.replace('hello world','user')
 print(a)
